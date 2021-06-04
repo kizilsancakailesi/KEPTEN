@@ -87,7 +87,7 @@ async def play(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await lel.edit_text("❗ Oynatılmak için hiçbir şey yok 🤣 ")
+        return await lel.edit_text("❗ Oynatılmak için hiçbir şey yok ")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
@@ -101,7 +101,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb_name,
         reply_markup=keyboard,
-        caption="▶️ **Oynatılıyor** {} Voice_Music2021 tarafından 💽".format(
+        caption="▶️ **Oynatılıyor** {} RG Music tarafından 💽".format(
         message.from_user.mention()
         ),
     )
