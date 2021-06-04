@@ -1,4 +1,4 @@
-# Yayında ve yapımda emeği geçen herkese teşekkürler. 
+# Yayında ve yapımda emeği geçen herkese teşekürler. 
 from os import path
 
 from youtube_dl import YoutubeDL
