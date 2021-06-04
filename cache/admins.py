@@ -1,4 +1,4 @@
-# Yayında ve yapımda emeği geçen herkese teşekkürler. 
+# Yayında ve yapımda emeği geçen herkese teşekkürlerr. 
 from typing import List, Dict, Union
 
 
